@@ -1,0 +1,80 @@
+.ariaRangeSlider:global(.__wab_instance) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--token-8bvv-gBG7EgC);
+  font-family: var(--token-oTw11vicOuru);
+  font-size: var(--token-xeAC2QH0S0qV);
+  line-height: var(--token-qByzcOhQ48NR);
+  min-width: 200px;
+  row-gap: var(--token-EKghAnXZ011N);
+}
+.freeBox__jGqr3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.freeBox__jGqr3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(0px - var(--token-NgNZQmLI2RgE));
+  width: calc(100% + var(--token-NgNZQmLI2RgE));
+}
+.freeBox__jGqr3 > :global(.__wab_flex-container) > *,
+.freeBox__jGqr3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__jGqr3 > :global(.__wab_flex-container) > picture > img,
+.freeBox__jGqr3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-NgNZQmLI2RgE);
+}
+.text__huOfd {
+  position: relative;
+}
+.text {
+  position: relative;
+}
+.freeBox__tac69 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-top: var(--token-Suv-JuVyFl2N);
+  padding-bottom: var(--token-Suv-JuVyFl2N);
+  width: 100%;
+  min-width: 0;
+}
+.background {
+  display: flex;
+  background: var(--token-cUCuvyLPcJh_);
+  height: var(--token-NgNZQmLI2RgE);
+  width: 100%;
+  min-width: 0;
+  border-radius: 99px;
+}
+.ariaSliderTrack:global(.__wab_instance) {
+  cursor: pointer;
+  opacity: 1;
+  box-sizing: border-box;
+  background: none;
+  height: var(--token-NgNZQmLI2RgE);
+  width: 100%;
+  min-width: 0;
+}
+.sliderThumb__tD8ET:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+  margin-top: var(--token-zVIByrkq_WVB);
+}
+.foreground {
+  display: block;
+  background: var(--token-3BYo9Vr4LmDZ);
+  height: var(--token-NgNZQmLI2RgE);
+  border-radius: 99px 0rem 0rem 99px;
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}

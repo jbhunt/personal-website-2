@@ -1,0 +1,55 @@
+.ariaCheckboxGroup:global(.__wab_instance) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  row-gap: var(--token-zVIByrkq_WVB);
+}
+.ariaCheckboxGroup[data-disabled]:global(.__wab_instance) {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.ariaCheckboxGroup[data-readonly]:global(.__wab_instance) {
+  pointer-events: none;
+  cursor: default;
+}
+.label:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__gsPr3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.freeBox__gsPr3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - var(--token-zVIByrkq_WVB));
+  height: calc(100% + var(--token-zVIByrkq_WVB));
+}
+.freeBox__gsPr3 > :global(.__wab_flex-container) > *,
+.freeBox__gsPr3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__gsPr3 > :global(.__wab_flex-container) > picture > img,
+.freeBox__gsPr3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-zVIByrkq_WVB);
+}
+.checkbox___4St9V:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.checkbox___077P:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.checkbox__uLw3Y:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}

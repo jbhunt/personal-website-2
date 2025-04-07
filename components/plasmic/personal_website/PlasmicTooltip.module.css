@@ -1,0 +1,49 @@
+.ariaTooltip:global(.__wab_instance) {
+  box-sizing: border-box;
+  position: relative;
+  color: #ffffff;
+}
+.slotTargetTrigger {
+  color: var(--token-8bvv-gBG7EgC);
+  font-family: var(--token-oTw11vicOuru);
+  font-size: var(--token-xeAC2QH0S0qV);
+  line-height: var(--token-qByzcOhQ48NR);
+}
+.text__hQsJj {
+  position: relative;
+}
+.overlayArrow:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  background: var(--token-C1y4-jgMdDkh);
+  flex-direction: column;
+  width: auto;
+  border-radius: var(--token-NgNZQmLI2RgE);
+  padding: var(--token-EKghAnXZ011N);
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - var(--token-zVIByrkq_WVB));
+  height: calc(100% + var(--token-zVIByrkq_WVB));
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: var(--token-zVIByrkq_WVB);
+}
+.slotTargetContent {
+  color: var(--token-GhszAvvAX0NJ);
+  font-family: var(--token-oTw11vicOuru);
+  font-size: var(--token-xeAC2QH0S0qV);
+  line-height: var(--token-qByzcOhQ48NR);
+}

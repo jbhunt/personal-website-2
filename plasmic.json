@@ -1,0 +1,881 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "vqeFwpZFQ6buChy6T9PGwQ",
+      "projectApiToken": "HoXrsW7thezPtv1YjHm4ylhJuxprHUDxJCCAqkbscy96N1h1mEgQ7wO2NZcpFk5lJnyvpOGcyI5XQsfu41Vg",
+      "projectName": "react-quill",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_quill/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ttF1HVZMBGN",
+          "name": "Quill",
+          "displayName": "hostless-react-quill",
+          "componentImportPath": "@plasmicpkgs/react-quill",
+          "helper": {
+            "name": "quillHelpers",
+            "importPath": "@plasmicpkgs/react-quill"
+          }
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "gmeH6XgPaBtkt51HunAo4g",
+      "projectApiToken": "LBbn8U2dmbpX9oeuRsYNyEKki39EXydGQgs9vBvR5sLHfGEZsK4owvOj7Q7SnflW4ASIEdLFAeeoxGxXZ8dJtA",
+      "projectName": "react-aria",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_aria/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "QswWn7k1U7ET",
+          "name": "BaseSelect",
+          "displayName": "plasmic-react-aria-select",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSelect"
+        },
+        {
+          "id": "XEco5EOfFG7-",
+          "name": "BaseSelectValue",
+          "displayName": "plasmic-react-aria-select-value",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSelect"
+        },
+        {
+          "id": "YsCvUUXRgPKy",
+          "name": "BaseComboBox",
+          "displayName": "plasmic-react-aria-combobox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerComboBox"
+        },
+        {
+          "id": "HvUCgqiPzPEX",
+          "name": "BaseButton",
+          "displayName": "plasmic-react-aria-button",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerButton"
+        },
+        {
+          "id": "me7KTdO_KIkf",
+          "name": "BaseLabel",
+          "displayName": "plasmic-react-aria-label",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerLabel"
+        },
+        {
+          "id": "4sLOTHHFrzj2",
+          "name": "BaseListBox",
+          "displayName": "plasmic-react-aria-listbox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerListBox",
+          "helper": {
+            "name": "listboxHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerListBox"
+          }
+        },
+        {
+          "id": "PoAYkttnnKt8",
+          "name": "BaseListBoxItem",
+          "displayName": "plasmic-react-aria-listbox-item",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerListBoxItem"
+        },
+        {
+          "id": "zIp51FL8KHRa",
+          "name": "BasePopover",
+          "displayName": "plasmic-react-aria-popover",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerPopover"
+        },
+        {
+          "id": "P1zT4UvhSciD",
+          "name": "BaseInput",
+          "displayName": "plasmic-react-aria-input",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerInput"
+          }
+        },
+        {
+          "id": "IRebgwZ5KOxr",
+          "name": "BaseSwitch",
+          "displayName": "plasmic-react-aria-switch",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSwitch"
+        },
+        {
+          "id": "t7JSdrAmVPUA",
+          "name": "BaseCheckbox",
+          "displayName": "plasmic-react-aria-checkbox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerCheckbox"
+        },
+        {
+          "id": "J6dFzk9sLhiL",
+          "name": "BaseCheckboxGroup",
+          "displayName": "plasmic-react-aria-checkboxGroup",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerCheckboxGroup"
+        },
+        {
+          "id": "YiLyhyFTHV9y",
+          "name": "BaseRadioGroup",
+          "displayName": "plasmic-react-aria-radioGroup",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerRadioGroup"
+        },
+        {
+          "id": "L01PBsCNswpe",
+          "name": "BaseRadio",
+          "displayName": "plasmic-react-aria-radioGroup-radio",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerRadio"
+        },
+        {
+          "id": "rMswhyNZvi7B",
+          "name": "BaseTextField",
+          "displayName": "plasmic-react-aria-textField",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTextField"
+        },
+        {
+          "id": "sHCwEg6H_Y31",
+          "name": "BaseModal",
+          "displayName": "plasmic-react-aria-modal",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerModal"
+        },
+        {
+          "id": "_Qjx-IzfLF6l",
+          "name": "BaseTooltip",
+          "displayName": "plasmic-react-aria-tooltip",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTooltip"
+        },
+        {
+          "id": "kp28MgccfwlQ",
+          "name": "BaseDialogTrigger",
+          "displayName": "plasmic-react-aria-dialogTrigger",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialogTrigger"
+        },
+        {
+          "id": "51hRux-iu0RF",
+          "name": "BaseText",
+          "displayName": "plasmic-react-aria-text",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerText"
+        },
+        {
+          "id": "-_rmqfmyqbxd",
+          "name": "BaseText",
+          "displayName": "plasmic-react-aria-description",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerText"
+        },
+        {
+          "id": "iIIdXu16I-k-",
+          "name": "BaseSection",
+          "displayName": "plasmic-react-aria-listbox-section",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSection"
+        },
+        {
+          "id": "kv1js5i5hCxL",
+          "name": "BaseSlider",
+          "displayName": "plasmic-react-aria-slider",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSlider"
+        },
+        {
+          "id": "ZoPZHoboZWhP",
+          "name": "BaseSliderOutput",
+          "displayName": "plasmic-react-aria-slider-sliderOutput",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderOutput"
+        },
+        {
+          "id": "kiBpPWTzQmrA",
+          "name": "BaseSliderThumb",
+          "displayName": "plasmic-react-aria-slider-sliderThumb",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderThumb"
+        },
+        {
+          "id": "flW7Lvcc_jyV",
+          "name": "BaseSliderTrack",
+          "displayName": "plasmic-react-aria-slider-sliderTrack",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderTrack"
+        },
+        {
+          "id": "kbh41PnPdelo",
+          "name": "BaseSlider",
+          "displayName": "plasmic-react-aria-slider-range-slider",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSlider"
+        },
+        {
+          "id": "FCiuD5hxcsIL",
+          "name": "BaseHeading",
+          "displayName": "plasmic-react-aria-heading",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerHeading"
+        },
+        {
+          "id": "z-WtOn_lG8-p",
+          "name": "BaseTextArea",
+          "displayName": "plasmic-react-aria-textarea",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTextArea",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerTextArea"
+          }
+        },
+        {
+          "id": "ve6CbDRk1Jw-",
+          "name": "BaseOverlayArrow",
+          "displayName": "plasmic-react-aria-overlayArrow",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerOverlayArrow"
+        },
+        {
+          "id": "xPmAZLS8Wf-7",
+          "name": "BaseDialog",
+          "displayName": "plasmic-react-aria-dialog",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
+        }
+      ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+      "projectApiToken": "Px99dubxzIjjR2gVbUd19lyuxXU2ClArn1nNMdVCOmNDzhkCu7dq1x4W7dQRYfBpPXdvQddiQLIk6h76hPRg",
+      "projectName": "Personal website",
+      "version": "latest",
+      "cssFilePath": "plasmic/personal_website/plasmic.module.css",
+      "components": [
+        {
+          "id": "C6K2rGWyZuIT",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "BLHcctsmi76m",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fY8LqW-ubk-r",
+          "name": "Label",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicLabel.jsx",
+          "importSpec": {
+            "modulePath": "Label.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicLabel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4owPQkfsxPCL",
+          "name": "Description",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicDescription.jsx",
+          "importSpec": {
+            "modulePath": "Description.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicDescription.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "EJWfBAiUq7zB",
+          "name": "MenuItem",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicMenuItem.jsx",
+          "importSpec": {
+            "modulePath": "MenuItem.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicMenuItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6E8e5cLFNHAf",
+          "name": "MenuSection",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicMenuSection.jsx",
+          "importSpec": {
+            "modulePath": "MenuSection.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicMenuSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2jrz3M66yf_A",
+          "name": "MenuPopover",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicMenuPopover.jsx",
+          "importSpec": {
+            "modulePath": "MenuPopover.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicMenuPopover.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pwvQDDVlpmry",
+          "name": "Combobox",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicCombobox.jsx",
+          "importSpec": {
+            "modulePath": "Combobox.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicCombobox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Wi8tbI9LS6ro",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "28GQJka9LYVK",
+          "name": "CheckboxGroup",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicCheckboxGroup.jsx",
+          "importSpec": {
+            "modulePath": "CheckboxGroup.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicCheckboxGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oVDnvLHcy-3j",
+          "name": "Radio",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicRadio.jsx",
+          "importSpec": {
+            "modulePath": "Radio.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicRadio.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vZnOVrIplQFM",
+          "name": "RadioGroup",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicRadioGroup.jsx",
+          "importSpec": {
+            "modulePath": "RadioGroup.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicRadioGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VHlqwbd1xNtT",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicSelect.jsx",
+          "importSpec": {
+            "modulePath": "Select.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QmPEz7yxUH77",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicSwitch.jsx",
+          "importSpec": {
+            "modulePath": "Switch.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-mgESBaDj_0u",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q0scRnaNoL9o",
+          "name": "TextAreaInput",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicTextAreaInput.jsx",
+          "importSpec": {
+            "modulePath": "TextAreaInput.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicTextAreaInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RWeJsPZNFSBM",
+          "name": "TextField",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicTextField.jsx",
+          "importSpec": {
+            "modulePath": "TextField.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicTextField.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "XrGW2eRmEf-_",
+          "name": "SliderThumb",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicSliderThumb.jsx",
+          "importSpec": {
+            "modulePath": "SliderThumb.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicSliderThumb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "N1ccNZ3hCLA3",
+          "name": "Slider",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicSlider.jsx",
+          "importSpec": {
+            "modulePath": "Slider.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicSlider.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GFn_fXWRcRz7",
+          "name": "RangeSlider",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicRangeSlider.jsx",
+          "importSpec": {
+            "modulePath": "RangeSlider.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicRangeSlider.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "IDUqI6AYdurP",
+          "name": "Modal",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicModal.jsx",
+          "importSpec": {
+            "modulePath": "Modal.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "M9ZQL5XXVaTY",
+          "name": "OverlayArrow",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicOverlayArrow.jsx",
+          "importSpec": {
+            "modulePath": "OverlayArrow.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicOverlayArrow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hlRZUksCEcpq",
+          "name": "Popover",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicPopover.jsx",
+          "importSpec": {
+            "modulePath": "Popover.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicPopover.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WM0KPCzJQ-5V",
+          "name": "Drawer",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicDrawer.jsx",
+          "importSpec": {
+            "modulePath": "Drawer.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7yoTYoHITeUG",
+          "name": "Tooltip",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicTooltip.jsx",
+          "importSpec": {
+            "modulePath": "Tooltip.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicTooltip.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AxlaSEv1IwSd",
+          "name": "Aboutme",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicAboutme.jsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicAboutme.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
+        },
+        {
+          "id": "vfLBrX0fe4mB",
+          "name": "MenuStack",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicMenuStack.jsx",
+          "importSpec": {
+            "modulePath": "MenuStack.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicMenuStack.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "B4eyTs7tQqIU",
+          "name": "Datasets",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicDatasets.jsx",
+          "importSpec": {
+            "modulePath": "../pages/datasets.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicDatasets.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/datasets"
+        }
+      ],
+      "icons": [
+        {
+          "id": "VwU3O0G3-lKQ",
+          "name": "ExternalLinkSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__ExternalLinkSvgrepoComSvg.jsx"
+        },
+        {
+          "id": "neS0HFxi-V2l",
+          "name": "CircleIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__Circle.jsx"
+        },
+        {
+          "id": "5UHxmiz-zaEZ",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "4L3aB5g1WovC",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__Check.jsx"
+        },
+        {
+          "id": "z3P5HMBzjv0r",
+          "name": "MinusIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__Minus.jsx"
+        },
+        {
+          "id": "mw0KUmP-nQOI",
+          "name": "TriangleFilledIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__TriangleFilled.jsx"
+        },
+        {
+          "id": "GOaTWnjAywsc",
+          "name": "MenuSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/personal_website/icons/PlasmicIcon__MenuSvgrepoComSvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Zl2hQtjpqel6",
+          "name": "saccade_extraction_thumbnail.svg",
+          "filePath": "../public/plasmic/personal_website/images/saccadeExtractionThumbnailSvg.svg"
+        },
+        {
+          "id": "x_xcCFPd8u_D",
+          "name": "blackflys-cmount-usb.png",
+          "filePath": "../public/plasmic/personal_website/images/blackflysCmountUsbPng.png"
+        },
+        {
+          "id": "oNjHwxqMCrul",
+          "name": "Screenshot_31-3-2025_102020_pubmed.ncbi.nlm.nih.gov.jpeg",
+          "filePath": "../public/plasmic/personal_website/images/screenshot3132025102020PubmedNcbiNlmNihGovJpeg.jpg"
+        },
+        {
+          "id": "fZLnVG-RK138",
+          "name": "Screenshot_31-3-2025_102217_www.biorxiv.org.jpeg",
+          "filePath": "../public/plasmic/personal_website/images/screenshot3132025102217WwwBiorxivOrgJpeg.jpg"
+        },
+        {
+          "id": "qHx5P7HbJgXx",
+          "name": "saccade_extraction_thumbnail-2.png",
+          "filePath": "../public/plasmic/personal_website/images/saccadeExtractionThumbnail2Png.png"
+        },
+        {
+          "id": "c3NBN6Pft7yB",
+          "name": "saccae_extraction_project_thumbnail.png",
+          "filePath": "../public/plasmic/personal_website/images/saccaeExtractionProjectThumbnailPng.png"
+        },
+        {
+          "id": "_cu20_BBoJqM",
+          "name": "myphdlib_project_thumbnail.png",
+          "filePath": "../public/plasmic/personal_website/images/myphdlibProjectThumbnailPng.png"
+        },
+        {
+          "id": "4q6vJu1GYdFi",
+          "name": "myphdlib_project_thumbnail.png 2",
+          "filePath": "../public/plasmic/personal_website/images/myphdlibProjectThumbnailPng2.png"
+        },
+        {
+          "id": "0xEoK8Qze6yD",
+          "name": "openpmad2_project_thumbnail.png",
+          "filePath": "../public/plasmic/personal_website/images/openpmad2ProjectThumbnailPng.png"
+        },
+        {
+          "id": "6dNAVc8d4oN2",
+          "name": "mycarbot_project_thumbnail.png",
+          "filePath": "../public/plasmic/personal_website/images/mycarbotProjectThumbnailPng.png"
+        },
+        {
+          "id": "DCFNxUpZe1Ta",
+          "name": "unit_localizer_thumbnail.png",
+          "filePath": "../public/plasmic/personal_website/images/unitLocalizerThumbnailPng.png"
+        },
+        {
+          "id": "Fou7y9b8VqCk",
+          "name": "unit_localizer_thumbnail.png 2",
+          "filePath": "../public/plasmic/personal_website/images/unitLocalizerThumbnailPng2.png"
+        },
+        {
+          "id": "94eq7pH0jR_V",
+          "name": "IMG_5116(1).JPG",
+          "filePath": "../public/plasmic/personal_website/images/img51161Jpg.jpg"
+        },
+        {
+          "id": "wsk6FWR-CpFT",
+          "name": "IMG_5307(1).JPG",
+          "filePath": "../public/plasmic/personal_website/images/img53071Jpg.jpg"
+        },
+        {
+          "id": "g_J7Ua9qv4s8",
+          "name": "tachi2.png",
+          "filePath": "../public/plasmic/personal_website/images/tachi2Png.png"
+        },
+        {
+          "id": "NDtgZR1BdcHG",
+          "name": "tachi1.png",
+          "filePath": "../public/plasmic/personal_website/images/tachi1Png.png"
+        },
+        {
+          "id": "hSEmVPHC68KF",
+          "name": "tachi3.png",
+          "filePath": "../public/plasmic/personal_website/images/tachi3Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "p6I4yFKAszYk",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "k_xRlzOVQxzK",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "UMynEYiJJ9bh",
+        "name": "Screen",
+        "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+        "contextFilePath": "plasmic/personal_website/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.337",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
+}
