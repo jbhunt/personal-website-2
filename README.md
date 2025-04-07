@@ -1,2 +1,2 @@
 ## Description
-This is the codebase for my [https://www.joshbhunt.com](personal website).
+This is the codebase for my [personal website](https://www.joshbhunt.com).
