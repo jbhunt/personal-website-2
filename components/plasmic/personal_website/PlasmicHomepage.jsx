@@ -158,36 +158,19 @@ function PlasmicHomepage__RenderFunc(props) {
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__vQes8)}>
-                  <div
+                  <PlasmicLink__
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       projectcss.__wab_text,
-                      sty.text__f2Fdy
+                      sty.link__jIpXx
                     )}
+                    component={Link}
+                    href={"https://www.github.com/felsenlab/saccade-extraction"}
+                    platform={"nextjs"}
                   >
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      {
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            projectcss.__wab_text,
-                            projectcss.plasmic_default__inline,
-                            sty.link__vij4K
-                          )}
-                          component={Link}
-                          href={
-                            "https://www.github.com/felsenlab/saccade-extraction"
-                          }
-                          platform={"nextjs"}
-                        >
-                          {"Saccade-extraction"}
-                        </PlasmicLink__>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  </div>
+                    {"Saccade-extraction"}
+                  </PlasmicLink__>
                   <ExternalLinkSvgrepoComSvgIcon
                     className={classNames(projectcss.all, sty.svg___3GyFy)}
                     onClick={async event => {
@@ -265,34 +248,19 @@ function PlasmicHomepage__RenderFunc(props) {
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__lFsX)}>
-                  <div
+                  <PlasmicLink__
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       projectcss.__wab_text,
-                      sty.text__ckOvu
+                      sty.link__w6ZoS
                     )}
+                    component={Link}
+                    href={"https://www.github.com/jbhunt/parallel-pyspin"}
+                    platform={"nextjs"}
                   >
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      {
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            projectcss.__wab_text,
-                            projectcss.plasmic_default__inline,
-                            sty.link___6Ztni
-                          )}
-                          component={Link}
-                          href={"https://www.github.com/jbhunt/parallel-pyspin"}
-                          platform={"nextjs"}
-                        >
-                          {"Parallel-pyspin"}
-                        </PlasmicLink__>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  </div>
+                    {"Parallel-pyspin"}
+                  </PlasmicLink__>
                   <ExternalLinkSvgrepoComSvgIcon
                     className={classNames(projectcss.all, sty.svg__dWl5W)}
                     onClick={async event => {
@@ -343,7 +311,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   )}
                 >
                   {
-                    "This is a Python package for parallelizing the operation of multiple FLIR Blackfly USB3 cameras."
+                    "This is a Python package for parallelizing the operation of multiple FLIR Blackfly S USB3 cameras."
                   }
                 </div>
               </div>
@@ -367,34 +335,21 @@ function PlasmicHomepage__RenderFunc(props) {
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__klOg)}>
-                  <div
+                  <PlasmicLink__
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       projectcss.__wab_text,
-                      sty.text___0PjKf
+                      sty.link___0B5X
                     )}
+                    component={Link}
+                    href={
+                      "https://www.https://www.github.com/jbhunt/myphdlib.app/"
+                    }
+                    platform={"nextjs"}
                   >
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      {
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            projectcss.__wab_text,
-                            projectcss.plasmic_default__inline,
-                            sty.link__mZlG
-                          )}
-                          component={Link}
-                          href={"https://www.github.com/jbhunt/myphdlib"}
-                          platform={"nextjs"}
-                        >
-                          {"myphdlib"}
-                        </PlasmicLink__>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  </div>
+                    {"myphdlib"}
+                  </PlasmicLink__>
                   <ExternalLinkSvgrepoComSvgIcon
                     className={classNames(projectcss.all, sty.svg___8Szkq)}
                     onClick={async event => {
@@ -470,34 +425,19 @@ function PlasmicHomepage__RenderFunc(props) {
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__sviMs)}>
-                  <div
+                  <PlasmicLink__
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       projectcss.__wab_text,
-                      sty.text__ssPe
+                      sty.link__c8Ia8
                     )}
+                    component={Link}
+                    href={"https://www.github.com/jbhunt/openpmad2"}
+                    platform={"nextjs"}
                   >
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      {
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            projectcss.__wab_text,
-                            projectcss.plasmic_default__inline,
-                            sty.link__e3Yzy
-                          )}
-                          component={Link}
-                          href={"https://www.github.com/jbhunt/openpmad2"}
-                          platform={"nextjs"}
-                        >
-                          {"openpmad2"}
-                        </PlasmicLink__>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  </div>
+                    {"openpmad2"}
+                  </PlasmicLink__>
                   <ExternalLinkSvgrepoComSvgIcon
                     className={classNames(projectcss.all, sty.svg__wgUvg)}
                     onClick={async event => {
@@ -567,34 +507,19 @@ function PlasmicHomepage__RenderFunc(props) {
                 />
 
                 <div className={classNames(projectcss.all, sty.freeBox__ykl20)}>
-                  <div
+                  <PlasmicLink__
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       projectcss.__wab_text,
-                      sty.text___8Dzee
+                      sty.link___7L6UY
                     )}
+                    component={Link}
+                    href={"https://www.github.com/jbhunt/mycarbot"}
+                    platform={"nextjs"}
                   >
-                    <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
-                      {
-                        <PlasmicLink__
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            projectcss.__wab_text,
-                            projectcss.plasmic_default__inline,
-                            sty.link___3TEo5
-                          )}
-                          component={Link}
-                          href={"https:/www.github.com/jbhunt/mycarbot"}
-                          platform={"nextjs"}
-                        >
-                          {"mycarbot"}
-                        </PlasmicLink__>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
-                  </div>
+                    {"mycarbot"}
+                  </PlasmicLink__>
                   <ExternalLinkSvgrepoComSvgIcon
                     className={classNames(projectcss.all, sty.svg__aHvW0)}
                     onClick={async event => {

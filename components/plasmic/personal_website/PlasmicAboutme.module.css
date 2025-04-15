@@ -115,6 +115,13 @@
   min-width: 0;
   padding: 36px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .sliderCarousel:global(.__wab_instance) {
+    width: 100%;
+    justify-self: center;
+    min-width: 0;
+  }
+}
 .freeBox___0S9U {
   display: flex;
   flex-direction: column;

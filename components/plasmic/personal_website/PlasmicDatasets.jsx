@@ -102,6 +102,12 @@ function PlasmicDatasets__RenderFunc(props) {
             >
               {"Datasets"}
             </h1>
+            <div
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
+              className={classNames(projectcss.all, sty.freeBox)}
+            />
+
             <h1
               className={classNames(
                 projectcss.all,
@@ -124,9 +130,6 @@ function PlasmicDatasets__RenderFunc(props) {
                       sty.link
                     )}
                     component={Link}
-                    href={
-                      "https://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqcfn"
-                    }
                     platform={"nextjs"}
                   >
                     {
@@ -158,8 +161,9 @@ function PlasmicDatasets__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "menuStack", "link", "text"],
+  root: ["root", "menuStack", "freeBox", "link", "text"],
   menuStack: ["menuStack"],
+  freeBox: ["freeBox"],
   link: ["link"],
   text: ["text"]
 };
@@ -197,6 +201,7 @@ export const PlasmicDatasets = Object.assign(
   {
     // Helper components rendering sub-elements
     menuStack: makeNodeComponent("menuStack"),
+    freeBox: makeNodeComponent("freeBox"),
     link: makeNodeComponent("link"),
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicDatasets

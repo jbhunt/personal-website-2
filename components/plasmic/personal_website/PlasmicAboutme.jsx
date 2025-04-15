@@ -140,7 +140,7 @@ function PlasmicAboutme__RenderFunc(props) {
               )}
             >
               {
-                "Hi, my name is Josh. I'm a neuroscientist and scientific software engineer interested in neurotechnology and building tools for science.\n\nI got my B.S. in Psychology at Kansas State University (EMAW), then I did a 2-year postbac fellowship at the National Insitute on Aging in Baltimore, MD. In 2024 I graduated with my Ph.D. in Neuroscience from the University of Colorado Anschutz Medical Campus where I studied how visual processing in the brain changes when you make fast eye movements called saccades.\n\nOutside of the lab I really like to read for fun (mostly fantasy, hard sci-fi, and manga), I play recreational grass/sand/indoor volleyball, and I like to play video games (e.g., Apex Legends, Hades, and Outer Wilds).\n\nI also have one cat and her name is Tachi."
+                "Hi, my name is Josh. I'm a neural data scientist and scientific software engineer interested in neurotechnology and building tools for science.\n\nI got my B.S. in Psychology at Kansas State University, then I did a 2-year postbac fellowship at the National Insitute on Aging in Baltimore, MD. In 2024 I graduated with my Ph.D. in Neuroscience from the University of Colorado Anschutz Medical Campus where I studied how visual processing in the brain changes when you make eye movements.\n\nOutside of work I like to read for fun, I play recreational volleyball, and I like to play video games.\n\nI also have a cat named Tachi."
               }
             </div>
             {(() => {

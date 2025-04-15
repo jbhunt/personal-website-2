@@ -259,13 +259,6 @@
   min-width: 0;
   padding: 8px;
 }
-.text__f2Fdy {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #000000;
-  font-size: 20px;
-}
 .svg___3GyFy {
   object-fit: cover;
   max-width: 100%;
@@ -324,13 +317,6 @@
   min-width: 0;
   padding: 8px;
 }
-.text__ckOvu {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #000000;
-  font-size: 20px;
-}
 .svg__dWl5W {
   object-fit: cover;
   max-width: 100%;
@@ -384,13 +370,6 @@
   max-width: 100%;
   min-width: 0;
   padding: 8px;
-}
-.text___0PjKf {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #000000;
-  font-size: 20px;
 }
 .svg___8Szkq {
   object-fit: cover;
@@ -517,13 +496,6 @@
   min-width: 0;
   padding: 8px;
 }
-.text__ssPe {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #000000;
-  font-size: 20px;
-}
 .svg__wgUvg {
   object-fit: cover;
   max-width: 100%;
@@ -579,13 +551,6 @@
   min-width: 0;
   padding: 8px;
 }
-.text___8Dzee {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #000000;
-  font-size: 20px;
-}
 .svg__aHvW0 {
   object-fit: cover;
   max-width: 100%;
@@ -618,6 +583,7 @@
   justify-content: flex-start;
   align-items: center;
   box-shadow: 0px 4px 16px 0px var(--token-UVQeNzlIrXZr);
+  align-self: flex-start;
   min-width: 0;
   border-radius: 12px;
   padding: 8px;
@@ -646,6 +612,8 @@
   width: auto;
   height: auto;
   max-width: 100%;
+  font-weight: 400;
+  font-size: 16px;
 }
 .svg___0T7JV {
   object-fit: cover;
