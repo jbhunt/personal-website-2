@@ -95,61 +95,84 @@ function PlasmicDatasets__RenderFunc(props) {
           </section>
           <section className={classNames(projectcss.all, sty.section__nOPyy)}>
             <h1
+              data-plasmic-name={"h1"}
+              data-plasmic-override={overrides.h1}
               className={classNames(
                 projectcss.all,
                 projectcss.h1,
                 projectcss.__wab_text,
-                sty.h1__szWJj
+                sty.h1
               )}
             >
               {"Datasets"}
             </h1>
-            <h1
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1__yXiA7
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
-                {
-                  <PlasmicLink__
-                    data-plasmic-name={"link"}
-                    data-plasmic-override={overrides.link}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {
-                      "Extracellular recordings from mouse superior colliculus during the optokinetic reflex "
-                    }
-                  </PlasmicLink__>
-                }
-                <React.Fragment>{""}</React.Fragment>
-              </React.Fragment>
-            </h1>
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
-            >
-              {
-                'This dataset contains extracellular recordings using Neuropixels 1.0 probes of neurons from the superior colliculus of mice viewing a drifting grating stimulus. The drifting grating stimulus included a "probe" phase every 0.5 to 1 s in which the contrast of the grating was briefly (50 ms) increased from 40% to 100%. The electrode was inserted at an extreme angle tangential to the medial-lateral axis of the brain so that most of the contacts were positioned in the zonal layer, the superficial gray layer, the optic layer, or the intermediate gray layer of the superior colliculus. The goal of this experiment was to understand how resetting saccades produced via the optokinetic reflex modulate visual responses in the superior colliculus.'
-              }
-            </div>
           </section>
+          <PlasmicLink__
+            data-plasmic-name={"link"}
+            data-plasmic-override={overrides.link}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link
+            )}
+            component={Link}
+            href={
+              "https://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqcfn#readme"
+            }
+            platform={"nextjs"}
+          >
+            <React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "var(--token-8bvv-gBG7EgC)", fontWeight: 700 }}
+              >
+                {"Hunt, J.B."}
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "var(--token-8bvv-gBG7EgC)" }}
+              >
+                {
+                  ", Buteau, A., Hanson, S., Poleg-Polsky, A., Felsen, G. (2025). "
+                }
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "var(--token-3BYo9Vr4LmDZ)" }}
+              >
+                {
+                  "Extracellular recordings from mouse superior colliculus during the optokinetic reflex [Dataset]."
+                }
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "var(--token-8bvv-gBG7EgC)" }}
+              >
+                {" "}
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{
+                  color: "var(--token-8bvv-gBG7EgC)",
+                  fontStyle: "italic"
+                }}
+              >
+                {"Dryad"}
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "var(--token-8bvv-gBG7EgC)" }}
+              >
+                {". https://doi.org/10.5061/dryad.cnp5hqcfn"}
+              </span>
+            </React.Fragment>
+          </PlasmicLink__>
         </div>
       </div>
     </React.Fragment>
@@ -157,10 +180,10 @@ function PlasmicDatasets__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "menuStack", "link", "text"],
+  root: ["root", "menuStack", "h1", "link"],
   menuStack: ["menuStack"],
-  link: ["link"],
-  text: ["text"]
+  h1: ["h1"],
+  link: ["link"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -196,8 +219,8 @@ export const PlasmicDatasets = Object.assign(
   {
     // Helper components rendering sub-elements
     menuStack: makeNodeComponent("menuStack"),
+    h1: makeNodeComponent("h1"),
     link: makeNodeComponent("link"),
-    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicDatasets
     internalVariantProps: PlasmicDatasets__VariantProps,
     internalArgProps: PlasmicDatasets__ArgProps,

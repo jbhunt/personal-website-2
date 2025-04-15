@@ -217,7 +217,24 @@ function PlasmicPublications__RenderFunc(props) {
                     className={"plasmic_default__all plasmic_default__span"}
                     style={{ color: "var(--token-8bvv-gBG7EgC)" }}
                   >
-                    {" Nature Communications."}
+                    {" "}
+                  </span>
+                  <React.Fragment>{""}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{
+                      color: "var(--token-8bvv-gBG7EgC)",
+                      fontStyle: "italic"
+                    }}
+                  >
+                    {"Nature Communications"}
+                  </span>
+                  <React.Fragment>{""}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "var(--token-8bvv-gBG7EgC)" }}
+                  >
+                    {"."}
                   </span>
                 </React.Fragment>
               </PlasmicLink__>

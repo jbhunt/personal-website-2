@@ -141,9 +141,16 @@ function PlasmicAboutme__RenderFunc(props) {
                 sty.text
               )}
             >
-              {
-                "Hi, my name is Josh. I'm a neural data scientist and scientific software engineer interested in neurotechnology and building tools for science.\n\nI got my B.S. in Psychology at Kansas State University, then I did a 2-year postbac fellowship at the National Insitute on Aging in Baltimore, MD. In 2024 I graduated with my Ph.D. in Neuroscience from the University of Colorado Anschutz Medical Campus where I studied how visual processing in the brain changes when you make eye movements.\n\nOutside of work I like to read for fun, I play recreational volleyball, and I like to play video games.\n\nI also have a cat named Tachi."
-              }
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ color: "#000000" }}
+                >
+                  {
+                    "Hi, my name is Josh. I'm a neural data scientist and scientific software engineer interested in neurotechnology and building tools for science. I got my B.S. in Psychology at Kansas State University, then I did a 2-year postbac fellowship at the National Insitute on Aging in Baltimore, MD. In 2024 I graduated with my Ph.D. in Neuroscience from the University of Colorado Anschutz Medical Campus where I studied how visual processing in the brain changes when you make eye movements. Outside of work I like to read for fun, I play recreational volleyball, and I like to play video games. I also have a cat named Tachi."
+                  }
+                </span>
+              </React.Fragment>
             </div>
             {(() => {
               const child$Props = {

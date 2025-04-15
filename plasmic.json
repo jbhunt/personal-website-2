@@ -683,7 +683,7 @@
           "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
           "renderModuleFilePath": "plasmic/personal_website/PlasmicAboutme.jsx",
           "importSpec": {
-            "modulePath": "../pages/new-page.jsx"
+            "modulePath": "../pages/aboutme.jsx"
           },
           "cssFilePath": "plasmic/personal_website/PlasmicAboutme.module.css",
           "scheme": "blackbox",
@@ -1273,7 +1273,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

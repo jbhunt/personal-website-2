@@ -117,7 +117,7 @@ function PlasmicMenuStack__RenderFunc(props) {
                 sty.link__dlp4S
               )}
               component={Link}
-              href={`/new-page`}
+              href={`/aboutme`}
               onClick={async event => {
                 const $steps = {};
                 $steps["goToHomepage"] = true
@@ -157,12 +157,12 @@ function PlasmicMenuStack__RenderFunc(props) {
                 sty.link__ot3E
               )}
               component={Link}
-              href={`/new-page`}
+              href={`/aboutme`}
               onClick={async event => {
                 const $steps = {};
                 $steps["goToAboutme"] = true
                   ? (() => {
-                      const actionArgs = { destination: `/new-page` };
+                      const actionArgs = { destination: `/aboutme` };
                       return (({ destination }) => {
                         if (
                           typeof destination === "string" &&

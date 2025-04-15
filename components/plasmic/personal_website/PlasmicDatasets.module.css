@@ -81,7 +81,7 @@
 .section__nOPyy > * {
   grid-column: 4;
 }
-.h1__szWJj {
+.h1 {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -90,22 +90,12 @@
   margin-bottom: 24px;
   min-width: 0;
 }
-.h1__yXiA7 {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 24px;
-  min-width: 0;
-}
 .link {
-  font-size: 16px;
-}
-.text {
   position: relative;
   width: 100%;
   height: auto;
   max-width: 100%;
+  padding-bottom: 16px;
+  padding-top: 0px;
   min-width: 0;
 }
