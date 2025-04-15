@@ -730,6 +730,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/publications"
+        },
+        {
+          "id": "KFW2Nx5MKyoG",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "jsfcAvrT2gX1xBNiQzA5u6",
+          "renderModuleFilePath": "plasmic/personal_website/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/personal_website/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/contact"
         }
       ],
       "icons": [

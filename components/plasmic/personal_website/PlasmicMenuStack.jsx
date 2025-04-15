@@ -232,6 +232,20 @@ function PlasmicMenuStack__RenderFunc(props) {
             >
               {"Resume"}
             </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                sty.link__zvmDz
+              )}
+              component={Link}
+              href={`/contact`}
+              platform={"nextjs"}
+              target={"_blank"}
+            >
+              {"Contact"}
+            </PlasmicLink__>
           </Stack__>
         }
         onOpenChange={async (...eventArgs) => {
