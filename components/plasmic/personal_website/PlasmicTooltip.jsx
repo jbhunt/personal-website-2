@@ -24,6 +24,7 @@ import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import { BaseTooltip } from "@plasmicpkgs/react-aria/skinny/registerTooltip";
 import OverlayArrow from "../../OverlayArrow"; // plasmic-import: M9ZQL5XXVaTY/component
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicTooltip.module.css"; // plasmic-import: 7yoTYoHITeUG/css
 
@@ -108,6 +109,7 @@ function PlasmicTooltip__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.ariaTooltip
       )}
       closeDelay={args.closeDelay}
@@ -126,7 +128,8 @@ function PlasmicTooltip__RenderFunc(props) {
         projectcss.root_reset,
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
-        projectcss.plasmic_tokens
+        projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens
       )}
       tooltipContent={
         <React.Fragment>

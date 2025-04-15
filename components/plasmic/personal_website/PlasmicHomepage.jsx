@@ -25,6 +25,7 @@ import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import MenuStack from "../../MenuStack"; // plasmic-import: vfLBrX0fe4mB/component
 import { useScreenVariants as useScreenVariantsuMynEYiJj9Bh } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: UMynEYiJJ9bh/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: C6K2rGWyZuIT/css
 import ExternalLinkSvgrepoComSvgIcon from "./icons/PlasmicIcon__ExternalLinkSvgrepoComSvg"; // plasmic-import: VwU3O0G3-lKQ/icon
@@ -89,6 +90,7 @@ function PlasmicHomepage__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >

@@ -21,6 +21,7 @@ import {
 import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import MenuStack from "../../MenuStack"; // plasmic-import: vfLBrX0fe4mB/component
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicDatasets.module.css"; // plasmic-import: B4eyTs7tQqIU/css
 
@@ -81,6 +82,7 @@ function PlasmicDatasets__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -102,12 +104,6 @@ function PlasmicDatasets__RenderFunc(props) {
             >
               {"Datasets"}
             </h1>
-            <div
-              data-plasmic-name={"freeBox"}
-              data-plasmic-override={overrides.freeBox}
-              className={classNames(projectcss.all, sty.freeBox)}
-            />
-
             <h1
               className={classNames(
                 projectcss.all,
@@ -161,9 +157,8 @@ function PlasmicDatasets__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "menuStack", "freeBox", "link", "text"],
+  root: ["root", "menuStack", "link", "text"],
   menuStack: ["menuStack"],
-  freeBox: ["freeBox"],
   link: ["link"],
   text: ["text"]
 };
@@ -201,7 +196,6 @@ export const PlasmicDatasets = Object.assign(
   {
     // Helper components rendering sub-elements
     menuStack: makeNodeComponent("menuStack"),
-    freeBox: makeNodeComponent("freeBox"),
     link: makeNodeComponent("link"),
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicDatasets

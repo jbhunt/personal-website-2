@@ -24,6 +24,7 @@ import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import { BaseSwitch } from "@plasmicpkgs/react-aria/skinny/registerSwitch";
 import Description from "../../Description"; // plasmic-import: 4owPQkfsxPCL/component
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicSwitch.module.css"; // plasmic-import: QmPEz7yxUH77/css
 
@@ -127,6 +128,7 @@ function PlasmicSwitch__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.ariaSwitch
       )}
       isDisabled={args.disabled}

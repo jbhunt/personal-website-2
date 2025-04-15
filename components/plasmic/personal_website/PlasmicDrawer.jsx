@@ -28,6 +28,7 @@ import Button from "../../Button"; // plasmic-import: BLHcctsmi76m/component
 import { BaseModal } from "@plasmicpkgs/react-aria/skinny/registerModal";
 import { BaseDialog } from "@plasmicpkgs/react-aria/skinny/registerDialog";
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicDrawer.module.css"; // plasmic-import: WM0KPCzJQ-5V/css
 
@@ -127,6 +128,7 @@ function PlasmicDrawer__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.ariaDialogTrigger,
         {
           [sty.ariaDialogTriggernoTrigger]: hasVariant(
@@ -165,7 +167,8 @@ function PlasmicDrawer__RenderFunc(props) {
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
-            projectcss.plasmic_tokens
+            projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens
           )}
         >
           <BaseDialog

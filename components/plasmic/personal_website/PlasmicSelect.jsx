@@ -30,6 +30,7 @@ import MenuPopover from "../../MenuPopover"; // plasmic-import: 2jrz3M66yf_A/com
 import MenuItem from "../../MenuItem"; // plasmic-import: EJWfBAiUq7zB/component
 import MenuSection from "../../MenuSection"; // plasmic-import: 6E8e5cLFNHAf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicSelect.module.css"; // plasmic-import: VHlqwbd1xNtT/css
 import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: 5UHxmiz-zaEZ/icon
@@ -142,6 +143,7 @@ function PlasmicSelect__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.ariaSelect,
         { [sty.ariaSelecttype_soft]: hasVariant($state, "type", "soft") }
       )}

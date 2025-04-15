@@ -25,6 +25,7 @@ import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import { BaseInput } from "@plasmicpkgs/react-aria/skinny/registerInput";
 import { inputHelpers as BaseInput_Helpers } from "@plasmicpkgs/react-aria/skinny/registerInput";
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: jsfcAvrT2gX1xBNiQzA5u6/projectcss
 import sty from "./PlasmicTextInput.module.css"; // plasmic-import: -mgESBaDj_0u/css
 
@@ -142,6 +143,7 @@ function PlasmicTextInput__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.ariaInput,
         {
           [sty.ariaInputflat_bottom]: hasVariant($state, "flat", "bottom"),
